@@ -1,4 +1,4 @@
 {
   "name": "swc-rust-plugin-example",
-  "workspaces": ["packages/**", "example"]
+  "workspaces": ["packages/**", "examples/**"]
 }
