@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","sources":["webpack://rspack-example/./src/index.js"],"sourcesContent":["let x = 5;\nlet y = 10;\nx === y;"],"names":["x","y","kdy1"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,IAAIA,IAAI;AACR,IAAIC,IAAI;AACRC,SAAMD"}
