@@ -1,0 +1,14 @@
+{
+    "name": "swc-plugin-transformer",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "keywords": ["swc-plugin"],
+    "main": "swc_plugin_transformer.wasm",
+    "scripts": {
+        "prepack": "cargo +nightly build --release -p swc_plugin_transformer --target wasm32-wasi && cp target/wasm32-wasi/release/swc_plugin_transformer.wasm ."
+    },
+    "files": [],
+    "preferUnplugged": true
+}

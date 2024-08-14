@@ -1,0 +1,16 @@
+{
+  "name": "swc-plugin-consumer",
+  "version": "0.1.0",
+  "main": "example.js",
+  "scripts": {
+    "build": "npx swc example.js -o output.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.11",
+    "swc-plugin-transformer": "*"
+  }
+}
